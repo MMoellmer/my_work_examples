@@ -6,12 +6,6 @@
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Examples](#examples)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Introduction
 This repository contains a collection of scripts and functions for statistical analysis, data wrangling, and figure production using R. The aim is to provide tools and examples to help you analyze your data efficiently and produce high-quality visualizations.
