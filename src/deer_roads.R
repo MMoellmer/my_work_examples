@@ -9,16 +9,16 @@ library(ggpubr)
 library(car)
 
 #organize data, discover linear equation
-head(Photos_road)
-model <- lm(Photos ~ Road, data = Photos_road)
+head(deer_roads)
+model <- lm(Photos ~ Road, data = deer_roads)
 model
 #linear equation: Photos = 135.676 + (-0.234)(Road)
 
 #a simple linear graph of the data
-ggplot(Photos_road, aes(x = Road, y = Photos)) + geom_point() + stat_smooth()
+ggplot(deer_roads, aes(x = Road, y = Photos)) + geom_point() + stat_smooth()
 
 #data with regression line
-ggplot(Photos_road, aes(Road, Photos)) + geom_point() + stat_smooth(method = lm)
+ggplot(deer_roads, aes(Road, Photos)) + geom_point() + stat_smooth(method = lm)
 summary(model)
 #Adjusted R^2 = 0.8037, P-value = <0.05, T-value = <0, N = 18
 # to be statistically significant, p-value must be greater than 0.05 and t-value must be larger than 0

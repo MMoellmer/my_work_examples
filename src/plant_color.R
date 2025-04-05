@@ -6,7 +6,7 @@ library(ggplot2)
 #Do Sage Thrashers, Meadowlarks, and Brewer's Sparrows occur in equal abundance?
 
 #Bar plot visualizing data
-ggplot(data = Bird_count, aes(x = Species, y = Count)) + geom_bar(stat = "identity")
+ggplot(data = plant_color_2, aes(x = Species, y = Count)) + geom_bar(stat = "identity")
 
 #Chi-squared goodness of fit test, compares things to determine if they occur in an expected proportion
 Bc <- c(540, 622, 649)
@@ -23,7 +23,7 @@ res_1
 #Bar plot data re-organization and visualization 
 Plant_color$Species <- factor(Plant_color$Species, levels = c("Red milkvetch", "Yellow milkvetch", "Blue milkvetch"))
 
-ggplot(data = Plant_color, aes(x = Species, y = Count)) + geom_bar(stat = "identity")
+ggplot(data = plant_color_1, aes(x = Species, y = Count)) + geom_bar(stat = "identity")
 
 #Chi-square goodness of fit test
 Fc <- c(113, 64, 33)
