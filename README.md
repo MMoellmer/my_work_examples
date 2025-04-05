@@ -3,10 +3,6 @@
 ![License](https://img.shields.io/badge/license-MIT-brightgreen)
 ![R](https://img.shields.io/badge/R-4.0.0-blue)
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-
 ## Introduction
 This repository contains a collection of scripts and functions for statistical analysis, data wrangling, and figure production using R. The aim is to provide tools and examples to help you analyze your data efficiently and produce high-quality visualizations.
 
