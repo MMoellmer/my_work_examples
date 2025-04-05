@@ -34,5 +34,5 @@
 ### A barplot of airline flight data
 ![4c49c681-b7e4-456f-ba17-fa1589faa94f](https://github.com/user-attachments/assets/41d3949b-1aca-4797-8fd2-3ff8bfda1b5f)
 
-## Wildlife Management
+## wildlife_management
 ### Note - excel data unavailable, no figures produced from code as a result
